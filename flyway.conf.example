@@ -1,0 +1,10 @@
+# Copy to flyway.conf locally and fill in your own values.
+# Do not commit real passwords or secrets.
+flyway.url=jdbc:postgresql://localhost:5432/capstone
+flyway.user=YOUR_MIGRATION_USER
+flyway.password=YOUR_LOCAL_PASSWORD
+flyway.locations=filesystem:db/migration
+flyway.validateMigrationNaming=true
+
+# Only enable clean for a disposable local database:
+# flyway.cleanDisabled=false
