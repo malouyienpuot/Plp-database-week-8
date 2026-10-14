@@ -1,0 +1,22 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+flyway.conf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PostgreSQL backups and local dumps
+backups/
+*.dump
+*.sql.gz
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
